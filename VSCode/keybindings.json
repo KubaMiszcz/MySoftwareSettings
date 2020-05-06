@@ -1,0 +1,33 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+s",
+        "command": "workbench.action.files.saveAll"
+    },
+    {
+        "key": "ctrl+k s",
+        "command": "-workbench.action.files.saveAll"
+    },
+    {
+        "key": "ctrl+k s",
+        "command": "workbench.action.files.save"
+    },
+    {
+        "key": "ctrl+s",
+        "command": "-workbench.action.files.save"
+    },
+    {
+        "key": "ctrl+alt+b",
+        "command": "bookmarks.toggle",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+k",
+        "command": "-bookmarks.toggle",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+c",
+        "command": "git.commit"
+    }
+]
