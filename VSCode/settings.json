@@ -1,0 +1,281 @@
+{
+    // "[cpp]": {
+    //     "editor.defaultFormatter": "ms-vscode.cpptools"
+    // }, 
+    "[css]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "arduino.additionalUrls": [
+        "http://arduino.esp8266.com/stable/package_esp8266com_index.json"
+    ],
+    "bracketPairColorizer.activeScopeCSS": [
+        "borderColor : {color}; opacity: 0.5",
+        "borderStyle : solid",
+        "borderWidth : 1px"
+    ],
+    // "bracketPairColorizer.rulerPosition": "Left",
+    "bracketPairColorizer.scopeLineRelativePosition": true,
+    "bracketPairColorizer.showBracketsInGutter": true,
+    "bracketPairColorizer.showBracketsInRuler": true,
+    "bracketPairColorizer.showHorizontalScopeLine": true,
+    "bracketPairColorizer.showVerticalScopeLine": true,
+    "breadcrumbs.enabled": true,
+    "debug.console.fontSize": 10,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.renderSideBySide": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true,
+        "source.fixAll.tslint": true,
+        "source.organizeImports": false,
+    },
+    "editor.columnSelection": false,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.fontFamily": "'Courier Prime Code', 'Fira Code Light', Hack, Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 12,
+    "editor.formatOnSave": true,
+    "editor.matchBrackets": "always",
+    "editor.minimap.size": "proportional",
+    "editor.padding.bottom": 0,
+    "editor.padding.top": 0,
+    "editor.renderControlCharacters": true,
+    "editor.renderIndentGuides": true,
+    "editor.renderWhitespace": "all",
+    "editor.suggestSelection": "first",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "name": "this.self",
+                "scope": "variable.language",
+                "settings": {
+                    "fontStyle": "italic",
+                    // "foreground": "#ff5874"
+                }
+            },
+            {
+                "scope": "storage.modifier",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "entity.name.type",
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            }
+        ]
+    },
+    "editor.wordWrap": "on",
+    "emmet.showSuggestionsAsSnippets": true,
+    "files.associations": {
+        "*.cpp": "cpp",
+        "*.json": "jsonc",
+        "*.script": "python",
+        "*.scss": "scss"
+    },
+    "files.autoSave": "off",
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "gitlens.views.repositories.branches.layout": "list",
+    "gitlens.views.repositories.files.layout": "tree",
+    "html-css-class-completion.enableEmmetSupport": true,
+    "html.format.wrapLineLength": 150,
+    "htmlhint.options": {
+        // "tagname-lowercase": false,
+        // "attr-value-double-quotes": true,
+        // "tag-pair": true,
+        // "spec-char-escape": true,
+        // "id-unique": true,
+        // "src-not-empty": true,
+        // "attr-no-duplication": true,
+        // "title-require": true
+        "attr-lowercase": false,
+        "doctype-first": false
+        // "attr-lowercase": [
+        // "*ngIf",
+        // "ngIf",
+        // "*ngFor",
+        // "ngFor",
+        // "ngSwitch",
+        // "ngModel",
+        // "routerLink",
+        // "[routerLink]",
+        // "routerLinkActive"
+        // ],
+    },
+    "markdownlint.config": {
+        "default": true,
+        "no-multiple-blanks": {
+            "maximum": 4
+        },
+        "no-bare-urls": false
+    },
+    "numberedBookmarks.saveBookmarksInProject": true,
+    "peacock.favoriteColors": [
+        {
+            "name": "Angular Red",
+            "value": "#b52e31"
+        },
+        {
+            "name": "Auth0 Orange",
+            "value": "#eb5424"
+        },
+        {
+            "name": "Azure Blue",
+            "value": "#007fff"
+        },
+        {
+            "name": "C# Purple",
+            "value": "#68217A"
+        },
+        {
+            "name": "Gatsby Purple",
+            "value": "#639"
+        },
+        {
+            "name": "Go Cyan",
+            "value": "#5dc9e2"
+        },
+        {
+            "name": "Java Blue-Gray",
+            "value": "#557c9b"
+        },
+        {
+            "name": "JavaScript Yellow",
+            "value": "#f9e64f"
+        },
+        {
+            "name": "Mandalorian Blue",
+            "value": "#1857a4"
+        },
+        {
+            "name": "Node Green",
+            "value": "#215732"
+        },
+        {
+            "name": "React Blue",
+            "value": "#00b3e6"
+        },
+        {
+            "name": "Something Different",
+            "value": "#832561"
+        },
+        {
+            "name": "Vue Green",
+            "value": "#42b883"
+        }
+    ],
+    "platformio-ide.useDevelopmentPIOCore": true,
+    // "prettier.eslintIntegration": true,
+    // "prettier.jsxSingleQuote": true,
+    // "prettier.printWidth": 180,
+    // "prettier.singleQuote": true,
+    // "prettier.stylelintIntegration": true,
+    // "prettier.tslintIntegration": true,
+    // "problems.decorations.enabled": true,
+    // "problems.showCurrentInStatus": true,
+    "search.followSymlinks": false,
+    "sync.autoDownload": true,
+    "sync.gist": "4412ebe74e16735226a574692dee25fd",
+    "sync.quietSync": true,
+    "team.showWelcomeMessage": false,
+    "team.appInsights.enabled": false,
+    "terminal.integrated.fontSize": 10,
+    "terminal.integrated.fontFamily": "'Fira Code Light', 'Courier Prime Code'",
+    "terminal.integrated.rendererType": "dom",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "timeline.showView": true,
+    // "todo-tree.customHighlight": {
+    // "TODO": {},
+    // "FIXME": {},
+    // },
+    // "todo-tree.defaultHighlight": {
+    // "foreground": "green",
+    // "type": "none"
+    // },
+    "todo-tree.general.tags": [
+        "FIXME ",
+        "TODO ",
+        "FIXIT ",
+        "FIX ",
+        "!!"
+    ],
+    "todo-tree.highlights.customHighlight": {
+        "FIXME": {},
+        "FIXIT": {},
+        "FIX": {},
+        "TODO": {}
+    },
+    "todo-tree.highlights.defaultHighlight": {
+        "foreground": "green",
+        "type": "none"
+    },
+    "todo-tree.regex.regexCaseSensitive": false,
+    "todo-tree.tree.expanded": true,
+    "todo-tree.tree.flat": true,
+    "todo-tree.tree.grouped": true,
+    "todo-tree.tree.showScanModeButton": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "vsicons.projectDetection.autoReload": true,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "window.zoomLevel": 0,
+    "workbench.colorCustomizations": {
+        "[Default Dark+]": {
+            // "activityBar.background": "#222222",
+            "activityBar.border": "#222222",
+            "activityBar.foreground": "#c29fff",
+            // "editor.background": "#000000",
+            "scrollbarSlider.background": "#6a79ff55",
+            // "sideBar.background": "#000000",
+            "sideBar.border": "#222222",
+            "statusBar.background": "#102F97"
+            // "list.inactiveSelectionBackground": "#C5DEF0",
+            // "sideBar.foreground": "#000000",
+            // "editor.background": "#FFFFFF",
+            // "editor.foreground": "#000000",
+            // "sideBarSectionHeader.background": "#CAC9C9",
+            // "sideBarSectionHeader.foreground": "#000000",
+            // "scrollbarSlider.activeBackground": "#77D4CB",
+            // "scrollbarSlider.hoverBackground": "#8CE6DA",
+            // "badge.background": "#81CA91"
+        },
+        "minimap.background": "#1b1616a8",
+        "minimap.selectionHighlight": "#ffff0f55",
+        "minimapSlider.activeBackground": "#2037ff55",
+        "minimapSlider.background": "#d0d4ff18",
+        "minimapSlider.hoverBackground": "#2037ff55"
+    },
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editorAssociations": [
+        {
+            // "viewType": "catCustoms.catScratch",
+            // "filenamePattern": "*.catScratch"
+        }
+    ],
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.tree.renderIndentGuides": "always"
+}
