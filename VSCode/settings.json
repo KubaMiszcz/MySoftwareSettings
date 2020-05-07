@@ -46,7 +46,7 @@
     "editor.columnSelection": false,
     "editor.cursorBlinking": "smooth",
     "editor.cursorSmoothCaretAnimation": true,
-    "editor.fontFamily": "'Courier Prime Code', 'Fira Code Light', Hack, Consolas, 'Courier New', monospace",
+    "editor.fontFamily": "'XCourier Prime Code', 'Fira Code Light', Hack, Consolas, 'Courier New', monospace",
     "editor.fontLigatures": true,
     "editor.fontSize": 12,
     "editor.formatOnSave": true,
@@ -208,31 +208,115 @@
     "terminal.integrated.rendererType": "dom",
     "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
     "timeline.showView": true,
-    // "todo-tree.customHighlight": {
-    // "TODO": {},
-    // "FIXME": {},
-    // },
-    // "todo-tree.defaultHighlight": {
-    // "foreground": "green",
-    // "type": "none"
-    // },
+    "todo-tree.general.tagGroups": {
+        "FIX ": [
+            "FIXIT ",
+            "FIX ",
+        ],
+        "BUG ": [
+            "! ",
+            "!! ",
+            "!!! ",
+            "BUG ",
+        ],
+        "FUTURE ": [
+            "FUT ",
+            "FUTURE ",
+        ]
+    },
     "todo-tree.general.tags": [
-        "FIXME ",
-        "TODO ",
-        "FIXIT ",
+        "! ",
+        "!! ",
+        "!!! ",
+        "BUG ",
+        "DEPR ",
         "FIX ",
-        "!!"
+        "FIXIT ",
+        "FUT ",
+        "FUTURE ",
+        "INFO ",
+        "TEST ",
+        "TODO ",
+        "WARN ",
     ],
+    "todo-tree.highlights.enabled": true,
+    "todo-tree.highlights.highlightDelay": 100,
     "todo-tree.highlights.customHighlight": {
-        "FIXME": {},
-        "FIXIT": {},
-        "FIX": {},
-        "TODO": {}
+        "! ": {},
+        "BUG ": {
+            "background": "#A80A0A",
+            "foreground": "#FFF5F5",
+            "gutterIcon": true,
+            "icon": "bug",
+            "iconColour": "#c70f0f",
+            "rulerColour": "orange",
+            "type": "tag-and-comment"
+        },
+        "DEPR ": {
+            "background": "#C1C1C1",
+            "foreground": "#171717",
+            "fontStyle": "italic",
+            "gutterIcon": true,
+            "icon": "squirrel",
+            "iconColour": "#bbbbbb",
+            "rulerColour": "grey",
+            "type": "tag-and-comment"
+        },
+        "FIX ": {
+            "background": "#006000",
+            "foreground": "#b0ffb0",
+            "fontStyle": "bold",
+            "gutterIcon": true,
+            "icon": "tools",
+            "iconColour": "orange",
+            "rulerColour": "orange",
+            "type": "tag-and-comment"
+        },
+        "FUTURE ": {
+            "background": "#1600BE",
+            "foreground": "#E5FFE4",
+            "fontStyle": "bold",
+            "gutterIcon": true,
+            "icon": "rocket",
+            "iconColour": "#0080ff",
+            "rulerColour": "#0080ff",
+            "type": "tag-and-comment"
+        },
+        "TODO ": {
+            "background": "#B02C00",
+            "foreground": "#E9EBFF",
+            "fontStyle": "bold",
+            "gutterIcon": true,
+            "icon": "pin",
+            "iconColour": "orange",
+            "rulerColour": "orange",
+            "type": "text-and-comment"
+        },
+        "TEST ": {
+            "background": "#006000",
+            "foreground": "#b0ffb0",
+            "fontStyle": "bold",
+            "gutterIcon": true,
+            "icon": "beaker",
+            "iconColour": "orange",
+            "rulerColour": "orange",
+            "type": "tag-and-comment"
+        }
     },
     "todo-tree.highlights.defaultHighlight": {
-        "foreground": "green",
-        "type": "none"
+        "fontStyle": "italic",
+        "background": "#052b00",
+        "foreground": "#09ff00",
+        "gutterIcon": true,
+        "icon": "info",
+        "iconColour": "green",
+        "rulerColour": "green",
+        "type": "tag-and-comment",
+        // "rulerLane": "left"
     },
+    "todo-tree.regex.regex": "(//)\\s*($TAGS).*(\\n\\s*//\\s+.*)*",
+    // "todo-tree.regex.regex": "(//)\\s*($TAGS)\\s*(.*\\n\\//\\s+.*)*",
+    // "todo-tree.regex.regex": "(//)\\s*($TAGS)\\s(.*\\n//\\s+.*)*",
     "todo-tree.regex.regexCaseSensitive": false,
     "todo-tree.tree.expanded": true,
     "todo-tree.tree.flat": true,
@@ -241,17 +325,17 @@
     "typescript.updateImportsOnFileMove.enabled": "always",
     "vsicons.projectDetection.autoReload": true,
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "window.zoomLevel": 0,
+    "window.zoomLevel": -1,
     "workbench.colorCustomizations": {
         "[Default Dark+]": {
-            // "activityBar.background": "#222222",
+            "activityBar.background": "#222222",
             "activityBar.border": "#222222",
             "activityBar.foreground": "#c29fff",
-            // "editor.background": "#000000",
-            "scrollbarSlider.background": "#6a79ff55",
-            // "sideBar.background": "#000000",
+            "editor.background": "#000000",
+            // "scrollbarSlider.background": "#6a79ff55",
+            "sideBar.background": "#000000",
             "sideBar.border": "#222222",
-            "statusBar.background": "#102F97"
+            "statusBar.background": "#102F97",
             // "list.inactiveSelectionBackground": "#C5DEF0",
             // "sideBar.foreground": "#000000",
             // "editor.background": "#FFFFFF",
@@ -261,6 +345,11 @@
             // "scrollbarSlider.activeBackground": "#77D4CB",
             // "scrollbarSlider.hoverBackground": "#8CE6DA",
             // "badge.background": "#81CA91"
+            "tab.activeBackground": "#464646",
+            "tab.activeBorder": "#b489ff",
+            // "tab.activeBackground": "#28006d",
+            "tab.inactiveBackground": "#1a1a1a",
+            "tab.border": "#4e4e4e"
         },
         "minimap.background": "#1b1616a8",
         "minimap.selectionHighlight": "#ffff0f55",
@@ -278,4 +367,36 @@
     ],
     "workbench.iconTheme": "material-icon-theme",
     "workbench.tree.renderIndentGuides": "always"
+    // "better-comments.tags": [
+    //   {
+    //     "tag": "!",
+    //     "color": "#FF2D00",
+    //     "strikethrough": false,
+    //     "backgroundColor": "transparent"
+    //   },
+    //   {
+    //     "tag": "?",
+    //     "color": "#3498DB",
+    //     "strikethrough": false,
+    //     "backgroundColor": "transparent"
+    //   },
+    //   {
+    //     "tag": "//",
+    //     "color": "#474747",
+    //     "strikethrough": true,
+    //     "backgroundColor": "transparent"
+    //   },
+    //   {
+    //     "tag": "todo",
+    //     "color": "#FF8C00",
+    //     "strikethrough": false,
+    //     "backgroundColor": "transparent"
+    //   },
+    //   {
+    //     "tag": "*",
+    //     "color": "#98C379",
+    //     "strikethrough": false,
+    //     "backgroundColor": "transparent"
+    //   }
+    // ]
 }
