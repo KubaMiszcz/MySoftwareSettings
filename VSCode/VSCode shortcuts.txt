@@ -1,0 +1,25 @@
+CTRL+0	To focus the explorer panel we use 
+CTRL+1	View can be focused by using 
+CTRL+P	console file search We can use 
+CTRL+TAB	to switch between the last opened files
+CTRL+SHIFT+O	we can bring up the symbols and command palette
+CTRL+U	cursor jumping back 
+CTRL+SHIFT+F	definitions and references 
+ALT+F12	we can peek at the implementation 
+SHIFT+F12	Peeking at references
+F12	jump to the definition of a function or a variable currently highlighted
+CTRL+SHIFT+F	manual Changing the name of a symbol 
+F2	rename of a currently highlighted symbol
+F8	Taking a closer look at errors
+ALT+SHIFT+S	symbol simplified definition
+CTRL+K ,CTRL+S	shortcuts list
+ALT+SHIFT+LEFT/RIGHT	Selecting code blocks
+CTRL+,	show hide terminal
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
