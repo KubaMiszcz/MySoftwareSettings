@@ -50,7 +50,7 @@
     "editor.fontLigatures": true,
     "editor.fontSize": 12,
     "editor.formatOnSave": true,
-    "editor.matchBrackets": "always",
+    "editor.matchBrackets": false,
     "editor.minimap.size": "proportional",
     "editor.padding.bottom": 0,
     "editor.padding.top": 0,
@@ -85,6 +85,13 @@
                 "settings": {
                     "fontStyle": "bold"
                 }
+            },
+            {
+                "scope": "constant",
+                "settings": {
+                    "foreground": "#FF0000",
+                    "fontStyle": "bold",
+                }
             }
         ]
     },
@@ -99,7 +106,6 @@
     "files.autoSave": "off",
     "git.autofetch": true,
     "git.confirmSync": false,
-    "gitlens.views.repositories.branches.layout": "list",
     "gitlens.views.repositories.files.layout": "tree",
     "html-css-class-completion.enableEmmetSupport": true,
     "html.format.wrapLineLength": 150,
@@ -357,16 +363,11 @@
         "minimapSlider.background": "#d0d4ff18",
         "minimapSlider.hoverBackground": "#2037ff55"
     },
-    "workbench.colorTheme": "Default Dark+",
     "workbench.editor.highlightModifiedTabs": true,
-    "workbench.editorAssociations": [
-        {
-            // "viewType": "catCustoms.catScratch",
-            // "filenamePattern": "*.catScratch"
-        }
-    ],
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.tree.renderIndentGuides": "always"
+    "workbench.tree.renderIndentGuides": "always",
+    "gitlens.views.repositories.branches.layout": "list",
+    "python.jediEnabled": false,
     // "better-comments.tags": [
     //   {
     //     "tag": "!",
